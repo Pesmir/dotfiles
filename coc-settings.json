@@ -1,0 +1,9 @@
+{
+	"git.showCommitInFloating": true,
+	"suggest.numberSelect": true,
+	"suggest.noselect": false,
+	"diagnostic.refreshOnInsertMode": true,
+	"python.analysis.diagnosticPublishDelay": 1000,
+	"python.jediEnabled": true,
+	"python.linting.flake8Enabled": true
+}
