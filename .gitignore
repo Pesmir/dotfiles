@@ -1,0 +1,15 @@
+blender/
+configstore/
+dconf/
+evolution/
+gnome-initial-setup-done
+gtk-3.0/
+ibus/
+mimeapps.list
+nvim/.netrwhist
+nvim/test
+pulse/
+sublime-text-3/Cache/
+sublime-text-3/Local/
+user-dirs.dirs
+user-dirs.locale

@@ -1,0 +1,1734 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1"
+      },
+      "expiry": 1614614639731
+    },
+    "/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f"
+      },
+      "expiry": 1616237159470
+    },
+    "/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02"
+      },
+      "expiry": 1616231980504
+    },
+    "/usr/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078"
+      },
+      "expiry": 1616231980506
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb"
+      },
+      "expiry": 1616231980506
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f"
+      },
+      "expiry": 1616237159456
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02"
+      },
+      "expiry": 1616231980507
+    },
+    "/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078"
+      },
+      "expiry": 1616231980562
+    },
+    "/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb"
+      },
+      "expiry": 1616231980503
+    },
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1"
+      },
+      "expiry": 1614614639734
+    },
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1"
+      },
+      "expiry": 1614614639785
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+      "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+      "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "d996e7102aeea5362341af3f7db939e492240925c572b5f054378577b9b249ff8a040179926fd69bdb51a896bece83a0fde2bc131bf14fa84c62b276d0da8b5f",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "3dd313cf7db97822502f159e477c120a77f8b6120685745df4fbc84f3c739083ccc75f653e57fa45ee4fa1fbefc70230bf92a9f85e272d57359cccb75cf38078",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1"
+      },
+      "expiry": 1614614639799
+    },
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('.env-rfloc': venv)",
+        "hash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1-55a1faf081f0de83871904196f1062e2"
+      },
+      "expiry": 1614614639792
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb-aec269dd434e7e8fd141100d21f0c9d1"
+      },
+      "expiry": 1616231980580
+    },
+    "/usr/bin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02-206caa6bdf160e58d18698b53db1b70c"
+      },
+      "expiry": 1614614639793
+    },
+    "/bin/python2.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02-6a6d545a58fcebbb1458627de12b1a73"
+      },
+      "expiry": 1614614639795
+    },
+    "/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb-b030de537066b50c4ced4021c7057d86"
+      },
+      "expiry": 1616231980582
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "info": {
+          "architecture": 3,
+          "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+          "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+          "envName": ".env-rfloc",
+          "type": "Venv",
+          "displayName": "Python 3.8.5 64-bit ('.env-rfloc': venv)"
+        }
+      },
+      "expiry": 1614614639806
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1616231980596
+    },
+    "/usr/bin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614614639808
+    },
+    "/bin/python2.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python2",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ff151ee766877a6e4c537100a63c17d2f3e648540e9aea19b8a8cd586630351963d3badb2616b7060a793d77378ba4190bfa7baa8ee4bfa0823e19d4e1d6ce02",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1614614639811
+    },
+    "/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1616231980601
+    },
+    "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('.env-rfloc': venv)",
+        "hash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1-9643db273abbbd4330f28f98ea263a21"
+      },
+      "expiry": 1614614639821
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "2edaacd8ada48f100ef1196fa83420e8f19137e55cf42f234d3815846ea622ab3fa1d8db8a22b00f53a39c39b373b06a63a9bcfc045f387d453333182e5bebbb",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+      "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+      "envName": ".env-rfloc",
+      "type": "Venv"
+    },
+    "/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682"
+      },
+      "expiry": 1616231980505
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682"
+      },
+      "expiry": 1616231980508
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac"
+      },
+      "expiry": 1616231980524
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac"
+      },
+      "expiry": 1616231980523
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('.env': venv)",
+        "hash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac-47ca95922e1fe4daa24e31e1c1255b46"
+      },
+      "expiry": 1616231980566
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "info": {
+          "architecture": 3,
+          "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+          "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+          "envName": ".env",
+          "type": "Venv",
+          "displayName": "Python 3.8.5 64-bit ('.env': venv)"
+        }
+      },
+      "expiry": 1616231980577
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682-1c73042b0c36c781dd39e35778134220"
+      },
+      "expiry": 1616231980578
+    },
+    "/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682-342caa72c3eba21221790a3e32a07bf9"
+      },
+      "expiry": 1616231980581
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac"
+      },
+      "expiry": 1616231980585
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1616231980594
+    },
+    "/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "93d244537dd8b04ba272f8c3a9f3ad07eaddb67165388a68536357590e9a732e27f76dcc35065946c5a474b5586388097b446e00181dc25742b9c2ca7cf0a682",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1616231980599
+    },
+    "/home/johannes/tugraz/ntue/.env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('.env': venv)",
+        "hash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac-ecb11662f2489aed10f32c6aaa3d6115"
+      },
+      "expiry": 1616231980641
+    }
+  },
+  "coc-python|/home/johannes/Repos/tugraz/RFLoc": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "SelectedPythonPath": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+    "INTERPRETERS_CACHE_v3_PipEnvService:323b74fcb7997542b04c0416b5650065": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:323b74fcb7997542b04c0416b5650065": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+        "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+        "envName": ".env-rfloc",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/home/johannes/Repos/tugraz/RFLoc": {
+      "architecture": 3,
+      "path": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/johannes/Repos/tugraz/RFLoc/.env-rfloc",
+      "fileHash": "837995073d58966570717bca793ba5be92f95540e472360d096371468cb1918cf4d73e9e78fa596665b921dc644c5619dfbbdbf486befad9c1dae4b1474efbe1",
+      "envName": ".env-rfloc",
+      "type": "Venv"
+    }
+  },
+  "coc-python|/home/johannes/tugraz/ntue": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:fa2a7bb078f145c3f6efbbde187fdb28": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:fa2a7bb078f145c3f6efbbde187fdb28": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "envName": ".env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "envName": ".env",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/home/johannes/tugraz/ntue/.env/bin/python3",
+    "autoSelectedWorkspacePythonInterpreter-/home/johannes/tugraz/ntue": {
+      "architecture": 3,
+      "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+      "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "envName": ".env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/johannes/tugraz/ntue/.env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/johannes/tugraz/ntue/.env",
+        "fileHash": "60fb68c00bd2cecc03d25f52b454d820d596d0e8801667f875ab76aa8efdf6d5f3110e98265de115c47eb44ab27eda3260622b9c0e1a65fb0a4c870faf4765ac",
+        "envName": ".env",
+        "type": "Venv"
+      }
+    ]
+  }
+}
