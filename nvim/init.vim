@@ -23,16 +23,18 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'psliwka/vim-smoothie'
-Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fancy Fuzzy Search
 Plug 'junegunn/fzf.vim'
-Plug 'joshdick/onedark.vim' " Colorschem
+Plug 'ghifarit53/tokyonight-vim' " Colorschem
+Plug 'morhetz/gruvbox'
 Plug 'mhinz/vim-startify' " start screen
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Autocompletion and linting
 Plug 'airblade/vim-rooter'
 call plug#end()
 
-colorscheme gruvbox
+let g:tokyonight_style = 'storm' " available: night, storm
+let g:tokyonight_enable_italic = 1
+colorscheme tokyonight
 " Autocompletion
 " Complete with tab instead of Enter
 inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -45,7 +47,7 @@ nnoremap gdl :diffget //3<CR>
 
 " Statusbar :
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='bubblegum'
+let g:airline_theme='tokyonight'
 let g:airline_powerline_fonts = 1
 " Search
 nmap <C-p> :GFiles<CR>
