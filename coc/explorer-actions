@@ -1,0 +1,8 @@
+addFile
+open:split:plain
+deleteForever
+delete
+collapseRecursive
+gotoParent
+collapse
+expand

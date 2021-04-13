@@ -80,6 +80,7 @@ schemes:
       cyan:    '0x0db9d7'
       white:   '0xacb0d0'
 
+background_opacity: 0.95
 
 key_bindings:
   - { key: V,        mods: Command, action: Paste                        }
@@ -129,4 +130,4 @@ key_bindings:
 colors: *tokyo-night
 
 # "storm" uses a lighter BG color
-colors: *tokyo-night-storm
+# colors: *tokyo-night-storm

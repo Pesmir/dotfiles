@@ -1,10 +1,15 @@
 {
-	"git.showCommitInFloating": true,
+	"python.sortImports.args": [
+			"--include_trailing_comma", "1",
+			"--multi_line_output", "3",
+			"--force_grid_wrap", "0",
+			"--use_parentheses", "True",
+			"--ensure_newline_before_comments", "True",
+			"--line_length", "88"
+	],
 	"suggest.numberSelect": true,
 	"suggest.noselect": false,
 	"diagnostic.refreshOnInsertMode": true,
-	"python.analysis.diagnosticPublishDelay": 1000,
-	"python.jediEnabled": true,
 	"python.linting.flake8Enabled": true,
 	"python.formatting.provider": "black"
 }

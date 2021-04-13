@@ -19,6 +19,8 @@ noremap <backspace> <Nop>
 " Install Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'jessedhillon/vim-easycomment'
+Plug 'psf/black', { 'branch': 'stable' }
+Plug 'fisadev/vim-isort'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
@@ -32,14 +34,22 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} " Autocompletion and linting
 Plug 'airblade/vim-rooter'
 call plug#end()
 
-let g:tokyonight_style = 'storm' " available: night, storm
+let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
+hi Normal ctermbg=NONE guibg=NONE
 " Autocompletion
 " Complete with tab instead of Enter
 inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
-
+" Python
+let g:vim_isort_map = '<C-i>' " sorting of imports with CTRL-i in visual mode
+let g:vim_isort_config_overrides = {
+			\'include_trailing_comma': 1,
+			\'multi_line_output': 3,
+			\'force_grid_wrap': 0,
+			\'use_parentheses': 'True',
+			\'ensure_newline_before_comments': 'True',
+			\'line_length': 88}
 " Fugitive Conflict Resolution
 nnoremap <leader>gm :Gdiff<CR>
 nnoremap gdh :diffget //2<CR>
