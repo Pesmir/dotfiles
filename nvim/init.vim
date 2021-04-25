@@ -102,12 +102,14 @@ let g:vim_isort_config_overrides = {
 			\'use_parentheses': 'True',
 			\'ensure_newline_before_comments': 'True',
 			\'line_length': 88}
-" Fugitive Conflict Resolution
+" Fugitive Git Commands
 nnoremap <leader>gm :Gdiff<CR>
 nnoremap gdh :diffget //2<CR>
 nnoremap gdl :diffget //3<CR>
+nnoremap <leader>gga :Gw<CR>
 nnoremap <leader>ggc :Git commit<CR>
 nnoremap <leader>ggp :Git push<CR>
+nnoremap <leader>gcp :Git checkout -<CR>
 
 " Statusbar :
 let g:airline#extensions#tabline#enabled = 1
