@@ -48,6 +48,7 @@ Plug 'vim-test/vim-test'
 " Statusbar
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'akinsho/nvim-bufferline.lua'
 
 " Git 
 Plug 'ThePrimeagen/git-worktree.nvim'
@@ -63,6 +64,7 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'tiagovla/tokyodark.nvim'
 
 " Misc
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'jessedhillon/vim-easycomment'
 Plug 'airblade/vim-rooter'
 Plug 'psliwka/vim-smoothie'
@@ -84,11 +86,12 @@ let g:notes_directories = ['~/Documents/Notes']
 vmap <Leader>ns :NoteFromSelectedText<CR>
  
 " Colorscheme
-let g:tokyodark_enable_italic_comment = 1
-let g:tokyodark_enable_italic = 1
-let g:tokyodark_color_gamma = "1.0"
-colorscheme tokyodark
-hi Normal ctermbg=NONE guibg=NONE
+"let g:tokyodark_enable_italic_comment = 1
+"let g:tokyodark_enable_italic = 1
+"let g:tokyodark_color_gamma = "1.0"
+colorscheme tokyonight
+"hi Normal ctermbg=NONE guibg=NONE
+
 " Autocompletion
 " Complete with tab instead of Enter
 inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -115,7 +118,7 @@ lua << EOF
 	local opts = { noremap=true, silent=true }
 	buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
 	buf_set_keymap('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-end
+	end
 
 -- Use a loop to conveniently both setup defined servers 
 -- and map buffer local keybindings when the language server attaches
@@ -145,10 +148,34 @@ nnoremap <leader>ggp :Git push<CR>
 nnoremap <leader>gcp :Git checkout -<CR>
 
 " Statusbar :
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 let g:airline_theme='tokyonight'
 let g:airline_powerline_fonts = 1
-
+lua require'bufferline'.setup{}
+lua << EOF
+require'bufferline'.setup{
+  options = {
+    buffer_close_icon= '',
+    modified_icon = '●',
+    close_icon = '',
+    left_trunc_marker = '',
+    right_trunc_marker = '',
+    max_name_length = 18,
+    max_prefix_length = 15, -- prefix used when a buffer is deduplicated
+    tab_size = 18,
+    diagnostics = false, 
+    show_buffer_close_icons = false,
+    show_close_icon = false,
+    show_tab_indicators = true,
+    persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
+    -- can also be a table containing 2 custom separators
+    -- [focused and unfocused]. eg: { '|', '|' }
+    separator_style = "slant", 
+    always_show_bufferline = true,
+    sort_by = 'directory',
+  }
+}
+EOF
 " Search
 nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
 nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
