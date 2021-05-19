@@ -14,7 +14,6 @@ set undofile
 set incsearch
 set scrolloff=10
 set signcolumn=yes
-set colorcolumn=88
 set inccommand=nosplit
 
 " Define Leader Key as space
@@ -51,9 +50,8 @@ Plug 'vim-test/vim-test'
 Plug 'lervag/vimtex'
 
 " Statusbar
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'akinsho/nvim-bufferline.lua'
+Plug 'hoob3rt/lualine.nvim'
 
 " Git 
 Plug 'ThePrimeagen/git-worktree.nvim'
@@ -67,10 +65,13 @@ endif
 " Colorschem
 Plug 'ghifarit53/tokyonight-vim' 
 Plug 'tiagovla/tokyodark.nvim'
+Plug 'shaunsingh/nord.nvim'
 
 " Misc
+Plug 'junegunn/goyo.vim'
 Plug 'sirver/ultisnips'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'jessedhillon/vim-easycomment'
 Plug 'airblade/vim-rooter'
@@ -92,12 +93,6 @@ tnoremap <Esc> <C-\><C-n>
 let g:notes_directories = ['~/Documents/Notes']
 vmap <Leader>ns :NoteFromSelectedText<CR>
  
-" Colorscheme
-"let g:tokyodark_enable_italic_comment = 1
-"let g:tokyodark_enable_italic = 1
-"let g:tokyodark_color_gamma = "1.0"
-colorscheme tokyonight
-"hi Normal ctermbg=NONE guibg=NONE
 
 " Autocompletion
 " Complete with tab instead of Enter
@@ -112,8 +107,6 @@ let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 "Test Configuration
 let  pdb_str = nvim_replace_termcodes("oimport pdb; pdb.set_trace()<ESC>", v:true, v:false, v:true)
 nnoremap <leader>pdb :call nvim_feedkeys(pdb_str, 'n', v:true)<CR>
-let test#strategy = "neovim"
-let test#neovim#term_position = "vert botright"
 let test#python#pytest#options = {
 			\ 'nearest': '-o addopts="" --pdb',
 			\ 'file': '-o addopts="" --pdb'
@@ -178,11 +171,19 @@ nnoremap <leader>ggc :Git commit<CR>
 nnoremap <leader>ggp :Git push<CR>
 nnoremap <leader>gcp :Git checkout -<CR>
 
+" Colorscheme
+"let g:tokyodark_enable_italic_comment = 1
+"let g:tokyodark_enable_italic = 1
+"let g:tokyodark_color_gamma = "1.0"
+colorscheme nord
+"hi Normal ctermbg=NONE guibg=NONE
+
 " Statusbar :
-let g:airline#extensions#tabline#enabled = 0
-let g:airline_theme='tokyonight'
-let g:airline_powerline_fonts = 1
-lua require'bufferline'.setup{}
+lua << EOF
+	require'lualine'.setup{
+		options = {theme = 'nord'}
+	}
+EOF
 lua << EOF
 require'bufferline'.setup{
   options = {
@@ -201,7 +202,7 @@ require'bufferline'.setup{
     persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
     -- can also be a table containing 2 custom separators
     -- [focused and unfocused]. eg: { '|', '|' }
-    separator_style = "slant", 
+    separator_style = "thick", 
     always_show_bufferline = true,
     sort_by = 'directory',
   }
