@@ -1,4 +1,13 @@
-snippet <latex> "Latex header" b
+snippet fig "Figure" wA
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{$1}
+	\caption{$2}
+\end{figure}
+$0
+endsnippet
+
+snippet \startlatex "Latex header" bA
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \begin{document}
