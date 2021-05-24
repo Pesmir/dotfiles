@@ -31,20 +31,23 @@ call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify' " start screen
 
 " LSP
-Plug 'neoclide/coc.nvim', {'branch': 'release'} " Autocompletion and linting
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
+Plug 'kabouzeid/nvim-lspinstall'
+Plug 'glepnir/lspsaga.nvim'
 
-" Debugger
+" Autocomplete
+Plug 'sirver/ultisnips'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/nvim-compe'
+
+" Debugging & Testing
 Plug 'puremourning/vimspector'
 Plug 'sagi-z/vimspectorpy', { 'do': { -> vimspectorpy#update() } }
-
+Plug 'vim-test/vim-test'
 
 " Python
 Plug 'jmcantrell/vim-virtualenv' 
 Plug 'psf/black', { 'branch': 'stable' }
-Plug 'fisadev/vim-isort'
-Plug 'vim-test/vim-test'
 
 " LaTeX
 Plug 'lervag/vimtex'
@@ -53,8 +56,8 @@ Plug 'lervag/vimtex'
 Plug 'akinsho/nvim-bufferline.lua'
 Plug 'hoob3rt/lualine.nvim'
 
+
 " Git 
-Plug 'ThePrimeagen/git-worktree.nvim'
 Plug 'tpope/vim-fugitive'
 if has('nvim') || has('patch-8.0.902')
   Plug 'mhinz/vim-signify'
@@ -65,11 +68,10 @@ endif
 " Colorschem
 Plug 'ghifarit53/tokyonight-vim' 
 Plug 'tiagovla/tokyodark.nvim'
-Plug 'shaunsingh/nord.nvim'
+Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
 " Misc
 Plug 'junegunn/goyo.vim'
-Plug 'sirver/ultisnips'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
@@ -84,6 +86,7 @@ Plug 'xolox/vim-notes'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-treesitter/nvim-treesitter'
 
 call plug#end()
 " Terminal 
@@ -93,11 +96,6 @@ tnoremap <Esc> <C-\><C-n>
 let g:notes_directories = ['~/Documents/Notes']
 vmap <Leader>ns :NoteFromSelectedText<CR>
  
-
-" Autocompletion
-" Complete with tab instead of Enter
-inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
 " Snippets
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
@@ -112,44 +110,18 @@ let test#python#pytest#options = {
 			\ 'file': '-o addopts="" --pdb'
 			\}
 " LSP
-" Python LSP
-lua << EOF
-	require'lspconfig'.pyright.setup{}
-	local nvim_lsp = require('lspconfig')
-	local on_attach = function(client, bufnr)
-	local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-	local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+"   Python
+lua require('lsp.python')
+lua require('lsp.latex')
+lua require('lsp.json')
+lua require('lsp.bash')
 
-	buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+" LSP general
+lua require('lsp.config')
+lua require('lsp.general')
 
-	-- Mappings.
-	local opts = { noremap=true, silent=true }
-	buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
-	buf_set_keymap('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-	end
-
--- Use a loop to conveniently both setup defined servers 
--- and map buffer local keybindings when the language server attaches
-local servers = { "pyright" }
-for _, lsp in ipairs(servers) do
-  nvim_lsp[lsp].setup { on_attach = on_attach }
-end
-EOF
-
-" LaTeX LSP
-lua require'lspconfig'.texlab.setup{}
-
-set completeopt=menuone,noinsert,noselect
-let g:completion_matchin_strategy_list = ['exact', 'substring', 'fuzzy']
-
-let g:vim_isort_map = '<C-i>' " sorting of imports with CTRL-i in visual mode
-let g:vim_isort_config_overrides = {
-			\'include_trailing_comma': 1,
-			\'multi_line_output': 3,
-			\'force_grid_wrap': 0,
-			\'use_parentheses': 'True',
-			\'ensure_newline_before_comments': 'True',
-			\'line_length': 88}
+" Autocomplete
+lua require('autocomplete')
 
 " LaTeX
 let g:tex_flavor='latex'
@@ -175,7 +147,7 @@ nnoremap <leader>gcp :Git checkout -<CR>
 "let g:tokyodark_enable_italic_comment = 1
 "let g:tokyodark_enable_italic = 1
 "let g:tokyodark_color_gamma = "1.0"
-colorscheme nord
+colorscheme lunar
 "hi Normal ctermbg=NONE guibg=NONE
 
 " Statusbar :
@@ -219,10 +191,9 @@ nnoremap <leader>fw <cmd>lua require('telescope.builtin').grep_string()<cr>
 nnoremap <leader>gr <cmd>lua require('telescope.builtin').lsp_references()<cr>
 
 " Telescope Git
-nnoremap <leader>gs <cmd>lua require('telescope.builtin').git_status()<cr>
-nnoremap <leader>gc <cmd>lua require('telescope.builtin').git_commits()<cr>
-nnoremap <leader>gb <cmd>lua require('telescope.builtin').git_branches()<cr>
-nnoremap <leader>gw <cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<cr>
+nnoremap <leader>ggs <cmd>lua require('telescope.builtin').git_status()<cr>
+nnoremap <leader>gsc <cmd>lua require('telescope.builtin').git_commits()<cr>
+nnoremap <leader>ggb <cmd>lua require('telescope.builtin').git_branches()<cr>
 
 "Debugger
 nnoremap <leader>dbg :call vimspector#Launch()<CR>
