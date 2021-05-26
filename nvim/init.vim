@@ -141,7 +141,7 @@ nnoremap gdl :diffget //3<CR>
 nnoremap <leader>gga :Gw<CR>
 nnoremap <leader>ggc :Git commit<CR>
 nnoremap <leader>ggp :Git push<CR>
-nnoremap <leader>gcp :Git checkout -<CR>
+nnoremap <leader>gch:Git checkout -<CR>
 
 " Colorscheme
 "let g:tokyodark_enable_italic_comment = 1
