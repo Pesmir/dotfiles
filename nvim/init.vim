@@ -39,6 +39,7 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'sirver/ultisnips'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/nvim-compe'
+Plug 'ray-x/lsp_signature.nvim'
 
 " Debugging & Testing
 Plug 'puremourning/vimspector'
@@ -46,8 +47,8 @@ Plug 'sagi-z/vimspectorpy', { 'do': { -> vimspectorpy#update() } }
 Plug 'vim-test/vim-test'
 
 " Python
-Plug 'jmcantrell/vim-virtualenv' 
-Plug 'psf/black', { 'branch': 'stable' }
+Plug 'jmcantrell/vim-virtualenv' " Virtual environments
+Plug 'psf/black', { 'branch': 'stable' } " Formatting
 
 " LaTeX
 Plug 'lervag/vimtex'
@@ -112,6 +113,8 @@ let test#python#pytest#options = {
 " LSP
 "   Python
 lua require('lsp.python')
+
+" Other
 lua require('lsp.latex')
 lua require('lsp.json')
 lua require('lsp.bash')

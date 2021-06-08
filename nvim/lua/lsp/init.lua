@@ -102,8 +102,10 @@ local function documentHighlight(client, bufnr)
 end
 local lsp_config = {}
 
+local lsp_signature = require"lsp_signature"
 function lsp_config.common_on_attach(client, bufnr)
     documentHighlight(client, bufnr)
+    lsp_signature.on_attach()
 end
 
 function lsp_config.tsserver_on_attach(client, bufnr)
