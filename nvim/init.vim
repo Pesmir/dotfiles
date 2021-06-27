@@ -1,5 +1,3 @@
-" General settings
-syntax on
 filetype plugin on
 set termguicolors
 set number relativenumber
@@ -29,6 +27,7 @@ noremap <backspace> <Nop>
 " Install Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'mhinz/vim-startify' " start screen
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " LSP
 Plug 'neovim/nvim-lspconfig'
@@ -67,9 +66,11 @@ else
 endif
 
 " Colorschem
-Plug 'ghifarit53/tokyonight-vim' 
-Plug 'tiagovla/tokyodark.nvim'
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
+Plug 'folke/tokyonight.nvim'
+Plug 'marko-cerovac/material.nvim'
+Plug 'lourenci/github-colors'
+Plug 'sainnhe/edge'
+Plug 'rakr/vim-one'
 
 " Misc
 Plug 'junegunn/goyo.vim'
@@ -87,8 +88,6 @@ Plug 'xolox/vim-notes'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-treesitter/nvim-treesitter'
-
 call plug#end()
 " Terminal 
 tnoremap <Esc> <C-\><C-n>
@@ -147,16 +146,15 @@ nnoremap <leader>ggp :Git push<CR>
 nnoremap <leader>gch:Git checkout -<CR>
 
 " Colorscheme
-"let g:tokyodark_enable_italic_comment = 1
-"let g:tokyodark_enable_italic = 1
-"let g:tokyodark_color_gamma = "1.0"
-colorscheme lunar
-"hi Normal ctermbg=NONE guibg=NONE
+set background=light
+let g:material_style = 'lighter'
+let g:material_lighter_contrast = v:true
+colorscheme material
 
 " Statusbar :
 lua << EOF
 	require'lualine'.setup{
-		options = {theme = 'nord'}
+		options = {theme = 'onelight'}
 	}
 EOF
 lua << EOF
