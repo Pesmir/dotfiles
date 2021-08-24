@@ -226,7 +226,7 @@ key_bindings:
   - { key: Delete,                  chars: "\x1b[3~",  mode: AppKeypad   }
   - { key: Delete,                  chars: "\x1b[P",   mode: ~AppKeypad  }
 # normal dark theme
-colors: *edge_light
+colors: *nord
 
 # "storm" uses a lighter BG color
 # colors: *tokyo-night-storm

@@ -13,6 +13,8 @@ set incsearch
 set scrolloff=10
 set signcolumn=yes
 set inccommand=nosplit
+set wildmode=longest,list,full
+set wildignore=*.o,*~
 
 " Define Leader Key as space
 let mapleader=" "
@@ -71,6 +73,7 @@ Plug 'marko-cerovac/material.nvim'
 Plug 'lourenci/github-colors'
 Plug 'sainnhe/edge'
 Plug 'rakr/vim-one'
+Plug 'edeneast/nightfox.nvim'
 
 " Misc
 Plug 'junegunn/goyo.vim'
@@ -146,15 +149,13 @@ nnoremap <leader>ggp :Git push<CR>
 nnoremap <leader>gch:Git checkout -<CR>
 
 " Colorscheme
-set background=light
-let g:material_style = 'lighter'
-let g:material_lighter_contrast = v:true
-colorscheme material
+let g:material_style = 'nordfox'
+colorscheme nightfox
 
 " Statusbar :
 lua << EOF
 	require'lualine'.setup{
-		options = {theme = 'onelight'}
+		options = {theme = 'nightfox'}
 	}
 EOF
 lua << EOF
