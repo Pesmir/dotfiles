@@ -71,6 +71,7 @@ Plug 'marko-cerovac/material.nvim'
 Plug 'lourenci/github-colors'
 Plug 'sainnhe/edge'
 Plug 'rakr/vim-one'
+Plug 'edeneast/nightfox.nvim'
 
 " Misc
 Plug 'junegunn/goyo.vim'
@@ -149,7 +150,7 @@ nnoremap <leader>gch:Git checkout -<CR>
 set background=light
 let g:material_style = 'lighter'
 let g:material_lighter_contrast = v:true
-colorscheme material
+colorscheme nordfox
 
 " Statusbar :
 lua << EOF
